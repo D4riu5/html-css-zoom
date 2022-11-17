@@ -48,22 +48,28 @@ main{
 .webcam-container{
     overflow-y: auto;
     display: flex;
-    background-color: orangered;
     flex-wrap: wrap;
     max-width: 95%;
     margin: 10px auto 0;
-    height: 96%;
+    height: 94%;
     justify-content: space-between;
+    gap: 10px 5px;
 }
 
 .webcam-container > div{
-    /* min-width: calc(90% / 7); */
-    /* height: calc(25% -5px); */
-    min-width: 220px;
+    min-width: calc(96% /7);
     min-height: 100px;
-    margin: 10px 5px;
-    background-color: blue;
-    
+    background-image: url(https://picsum.photos/200/300);
+    display: flex;
+    align-items: flex-end;
+}
+
+.name{
+    display: inline-block;
+    background-color: rgba(49, 49, 49, 0.7);
+    color: white;
+    padding: 5px;
+    font-size: 12px;
 }
 
 /* MAIN END  */
