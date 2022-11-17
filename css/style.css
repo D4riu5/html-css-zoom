@@ -6,24 +6,35 @@
 }
 
 
-/* MAIN RULES START */
+/* GENERAL RULES START */
 
 
+/* GENERAL RULES END */
 
-/* MAIN RULES END */
 
 
 
 /* HEADER START */
-
-
+header{
+    height: 8vh;
+    background-color: black;
+}
 
 /* HEADER END */
 
-
-
 /* MAIN START  */
+main{
+    height: 80vh;
+    background-color: rgb(24, 24, 24);
+}
 
 
 /* MAIN END  */
 
+/* FOOTER START */
+footer{
+    height: 12vh;
+    background-color: rgb(49, 49, 49);
+}
+
+/* FOOTER END */
