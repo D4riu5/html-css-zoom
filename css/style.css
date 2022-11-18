@@ -96,7 +96,7 @@ footer section{
     justify-content: center;
     align-items: center;
     background-color: rgb(105, 105, 105);
-    height: 12vh;
+    height: 100px;
 }
 
 .end-meeting > a{
