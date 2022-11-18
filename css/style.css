@@ -46,7 +46,6 @@ main{
 }
 
 .webcam-container{
-    overflow-y: auto;
     display: flex;
     flex-wrap: wrap;
     max-width: 95%;
